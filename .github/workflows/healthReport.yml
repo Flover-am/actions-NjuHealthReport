@@ -31,3 +31,4 @@ jobs:
         run: |
           python health_report_helper/main.py "${{ secrets.DATA }}"
           python health_report_helper/main.py "${{ secrets.DATA2 }}"
+          python health_report_helper/main.py "${{ secrets.DATA3 }}"
